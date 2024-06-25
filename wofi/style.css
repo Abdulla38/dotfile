@@ -1,0 +1,46 @@
+window {
+    background-color: #282828; 
+    
+    font-family: "Iosevka Nerd Font";
+    font-size: 20px;
+
+    border-radius: 10px;
+    border: 4px solid #458588;
+}
+
+#outer-box {
+
+}
+
+#input {
+    border-radius: 10px 10px 0 0;
+    border: 4px solid #458588;
+    background-color: #ebdbb2;
+}
+
+#scroll {
+}
+
+#inner-box {
+
+}
+
+#entry {
+    padding: 16px;
+}
+
+#text {
+    color: #ebdbb2;
+}
+
+#img {
+    margin-right: 12px;
+}
+
+#entry:selected {
+    background-color: #458588;
+    border: none;
+}
+
+#text:selected {
+}
