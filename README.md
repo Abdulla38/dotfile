@@ -14,9 +14,3 @@
 - Promt: [Oh-my-zsh](https://ohmyz.sh/), [StarShip](https://github.com/starship/starship)
 - Multiplexer: [Tmux](https://github.com/tmux/tmux/wiki)
 - Screen locker: [Hyprlock](https://github.com/hyprwm/hyprlock)
-- File manager: [Ranger](https://github.com/ranger/ranger)
-
-
-Что надо установить.
- 1. ВСЁ ЧТО ВЫШЕ
- 2. Node, python, rust, zoxide, zsh-syntax-highlighting, zsh-autosuggestions, poetry, imv, grim. 
