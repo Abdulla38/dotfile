@@ -4,6 +4,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 export EDITOR="nvim"
+export PATH="/home/abdulla381/.local/bin:$PATH"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -145,3 +146,7 @@ function __zoxide_hook() {
  }
  eval "$(zoxide init zsh)"
 
+
+if [ "$(tty)" = "/dev/tty1" ]; then
+ exec Hyprland
+fi
