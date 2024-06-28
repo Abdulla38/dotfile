@@ -20,7 +20,7 @@ edit = [
 	{ run = 'nvim "$@"', block = true },
 ]
 play = [
-	{ run = 'mpv "$@"', orphan = true, for = "unix" },
+	{ run = 'vlc "$@"', orphan = true, for = "unix" },
 ]
 open = [
 	{ run = 'xdg-open "$@"', desc = "Open" },
