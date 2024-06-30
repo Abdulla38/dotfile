@@ -1,6 +1,7 @@
 {
   "layer": "top",
   "position": "bottom",
+  "width": 1250,
   "height": 40,
   "modules-left": ["custom/weather", "temperature", "tray", "backlight"],
   "modules-center": ["hyprland/workspaces"],
@@ -78,7 +79,7 @@
     "format": "{icon} {capacity}%",
     "format-time": "{H} h {M} min",
     "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
-    "format-charging": "󰂄"
+    "format-charging": "󰂄",
   },
 
   "hyprland/language": {
