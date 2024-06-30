@@ -73,6 +73,13 @@ button:hover {
 	padding: 0 4px;
 }
 
+#tray {
+    background-color: @bg2;
+	border-radius: 6px;
+	margin: 4px 5px 4px 5px;
+	padding: 0 4px;
+}
+
 #backlight {
 	background-color: @bg2;
 	border-radius: 6px;
