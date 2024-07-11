@@ -90,8 +90,6 @@ fi
 
 eval "$(starship init zsh)"
 
-source $HOME/.cargo
-
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
