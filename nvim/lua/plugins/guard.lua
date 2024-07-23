@@ -5,6 +5,7 @@ ft("lua"):fmt "stylua"
 
 ft("python"):fmt("ruff"):lint "ruff"
 ft("jsonc"):fmt "prettier"
+ft("go"):fmt "gofmt"
 
 -- Call setup() LAST!
 require("guard").setup {
