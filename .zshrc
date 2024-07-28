@@ -5,6 +5,8 @@
 export ZSH="$HOME/.oh-my-zsh"
 export EDITOR="nvim"
 export PATH="/home/abdulla381/.local/bin:$PATH"
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
