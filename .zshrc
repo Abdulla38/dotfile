@@ -78,7 +78,6 @@ plugins=(
   git
   zsh-syntax-highlighting
   zsh-autosuggestions
-  poetry
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -150,3 +149,5 @@ function __zoxide_hook() {
 if [ "$(tty)" = "/dev/tty1" ]; then
  exec Hyprland
 fi
+
+alias hc=hexcurse
