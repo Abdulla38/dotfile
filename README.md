@@ -15,7 +15,7 @@ This is my first go at hyprland. Created this repository to leave a future self 
 - Terminal: [Kitty](https://sw.kovidgoyal.net/kitty/)
 - Editor: [Neovim](https://neovim.io/)
 - Notification manager: [Mako](https://github.com/emersion/mako)
-- App launcher: [Wofi](https://hg.sr.ht/~scoopta/wofi)
+- App launcher: [Rofi](https://github.com/davatorium/rofi)
 - Theme: [Gruvbox](https://github.com/morhetz/gruvbox)
 - Font: [Iosevka Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Iosevka.zip)
 - File manager: [Yazi](https://yazi-rs.github.io/)
@@ -36,20 +36,20 @@ makepkg -si
 
 2. Install need packages
 ```zsh
-sudo pacman -S hyprland, zsh, git, tmux, neovim, hyprpaper, hyprlock, starship, wofi, waybar, mako, yazi, curl, pulseaudio, zoxide, wl-clipboard, ripgrep, openssh, nwg-look, grim, firefox, networkmanager, gtk-engine-murrine, zip, unzip, imv
+sudo pacman -S hyprland, zsh, git, tmux, neovim, hyprpaper, hyprlock, starship, rofi, waybar, mako, yazi, curl, pulseaudio, zoxide, wl-clipboard, ripgrep, openssh, nwg-look, grim, firefox, networkmanager, gtk-engine-murrine, zip, unzip, imv
 ```
 
-4. Install optional packages
+3. Install optional packages
 ```zsh
 sudo pacman -S exa, obsidian, postgresql, python, go, syncthing, telegram-desktop, tree, vlc
 ```
 
-5. Install Oh-my-zsh
+4. Install Oh-my-zsh
 ```zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-6. Install plugins for oh-my-zsh
+5. Install plugins for oh-my-zsh
 ```zsh
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
@@ -58,26 +58,26 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 curl -sSL https://install.python-poetry.org | python3 -
 ```
 
-7.  Install NVM
+6.  Install NVM
 ```zsh
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
 ```
 
-8. Install gruvbox gtk theme
+7. Install gruvbox gtk theme
 	- https://www.pling.com/p/1681813 to download zip
 
 ```zsh
 unzip Gruvbox-Dark-B.zip 
 ```
 
-9. Install dotfiles
+8. Install dotfiles
 ```zsh
 git clone https://github.com/Abdulla38/dotfile2
 cd dotfile
 cp -r .config/* ~/.config/
 ```
 
-10. Install font
+9. Install font
 	- https://www.nerdfonts.com/font-downloads to download font zip
 
 ```zsh
