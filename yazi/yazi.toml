@@ -9,7 +9,7 @@ linemode = "size"
 show_hidden = true
 show_symlink = true
 scrolloff = 200
-mouse_events = "click"
+# mouse_events = "click"
 
 [preview]
 tab_size = 200
