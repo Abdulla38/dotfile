@@ -18,6 +18,8 @@ opt.wrap = false
 opt.clipboard = "unnamedplus"
 opt.termguicolors = true
 opt.colorcolumn = "80"
+global.loaded_netrw = 1
+global.loaded_netrwPlugin = 1
 
 vim.fn.sign_define("DiagnosticSignError", { text = " ", texthl = "DiagnosticSignError" })
 vim.fn.sign_define("DiagnosticSignWarn", { text = " ", texthl = "DiagnosticSignWarn" })
