@@ -1,6 +1,6 @@
 {
   "layer": "top",
-  "position": "bottom",
+  "position": "top",
   "width": 1250,
   "height": 40,
   "modules-left": ["custom/weather", "temperature", "tray", "backlight"],
