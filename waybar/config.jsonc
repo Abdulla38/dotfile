@@ -13,6 +13,7 @@
     "hyprland/language",
     "clock",
   ],
+  "margin-top": 10,
   "margin-right": 20,
   "margin-left": 20,
   "margin-bottom": 10,
