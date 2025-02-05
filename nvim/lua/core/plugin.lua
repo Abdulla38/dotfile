@@ -37,7 +37,6 @@ require("lazy").setup {
     },
   },
   "nvim-lualine/lualine.nvim",
-  dependencies = { "nvim-tree/nvim-web-devicons" },
 
   "norcalli/nvim-colorizer.lua",
 
@@ -52,5 +51,9 @@ require("lazy").setup {
       vim.api.nvim_create_user_command("PeekOpen", require("peek").open, {})
       vim.api.nvim_create_user_command("PeekClose", require("peek").close, {})
     end,
+  },
+  {
+    "nvim-tree/nvim-tree.lua",
+    dependencies = { "nvim-tree/nvim-web-devicons" },
   },
 }
