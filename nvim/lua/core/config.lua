@@ -1,5 +1,5 @@
 local opt = vim.opt
-local api = vim.api
+local global = vim.g
 
 opt.number = true
 opt.relativenumber = true
