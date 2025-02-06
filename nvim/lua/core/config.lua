@@ -18,6 +18,7 @@ opt.wrap = false
 opt.clipboard = "unnamedplus"
 opt.termguicolors = true
 opt.colorcolumn = "80"
+opt.fillchars:append { eob = " " }
 global.loaded_netrw = 1
 global.loaded_netrwPlugin = 1
 
