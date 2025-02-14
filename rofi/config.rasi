@@ -149,4 +149,4 @@ configuration {
       sorting-method:    "name";
   }
 }
-@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
+@theme "./kanagawa-paper.rasi"
