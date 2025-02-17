@@ -1,10 +1,11 @@
 max-history=20
 
-font=Iosevka Nerd Font 16
+font=JetBrainsMono Nerd Font 16
 
-background-color=#282828
+background-color=#1f1f28
 
 border-size=3
 border-radius=16
-text-color=#ebdbb2
+border-color=#7e9cd8
+text-color=#dcd7ba
 
