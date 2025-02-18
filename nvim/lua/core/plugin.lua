@@ -57,8 +57,4 @@ require("lazy").setup {
     dependencies = { "nvim-tree/nvim-web-devicons" },
   },
   { "rebelot/kanagawa.nvim" },
-  {
-    "rcarriga/nvim-dap-ui",
-    dependencies = { "mfussenegger/nvim-dap", "nvim-neotest/nvim-nio" },
-  },
 }
