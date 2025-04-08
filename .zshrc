@@ -78,6 +78,7 @@ plugins=(
   git
   zsh-syntax-highlighting
   zsh-autosuggestions
+  web-search
 )
 
 source $ZSH/oh-my-zsh.sh
