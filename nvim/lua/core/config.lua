@@ -19,6 +19,9 @@ opt.clipboard = "unnamedplus"
 opt.termguicolors = true
 opt.colorcolumn = "80"
 opt.fillchars:append { eob = " " }
+opt.ignorecase = true
+opt.smartcase = true
+opt.showmatch = true
 global.loaded_netrw = 1
 global.loaded_netrwPlugin = 1
 
@@ -26,3 +29,5 @@ vim.fn.sign_define("DiagnosticSignError", { text = " ", texthl = "DiagnosticS
 vim.fn.sign_define("DiagnosticSignWarn", { text = " ", texthl = "DiagnosticSignWarn" })
 vim.fn.sign_define("DiagnosticSignInfo", { text = " ", texthl = "DiagnosticSignInfo" })
 vim.fn.sign_define("DiagnosticSignHint", { text = "󰌵", texthl = "DiagnosticSignHint" })
+
+vim.cmd [[autocmd BufEnter * set fo-=c fo-=r fo-=o]]
