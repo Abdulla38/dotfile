@@ -63,4 +63,5 @@ opt.scrolloff = 10
 -- See `:help 'confirm'`
 opt.confirm = true
 
-
+-- Disable swap file
+opt.swapfile = false
