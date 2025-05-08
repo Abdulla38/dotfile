@@ -1,4 +1,3 @@
-local builtin = require('telescope.builtin')
 return {
   { "nvim-telescope/telescope.nvim",
     opts = {},
