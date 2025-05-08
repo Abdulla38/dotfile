@@ -86,11 +86,4 @@ cd font
 sudo mv *.ttf /usr/local/share/fonts
 ```
 
-### Gallery
-![lock_screen](./assets/lockscreen.png)
-
-![first](./assets/first.png)
-
-![editor](./assets/editor.png)
-
-![file_manager_and_list](./assets/yazi_list.png)
+### Gallery (Will be later)
